@@ -53,6 +53,11 @@
                                         <constraint firstItem="6wG-wl-Fqa" firstAttribute="leading" secondItem="y2k-xn-SyB" secondAttribute="trailing" constant="8" id="Od7-Wn-inu"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="6wG-wl-Fqa" id="UBs-TX-e2i"/>
+                                    <outlet property="photoImageView" destination="y2k-xn-SyB" id="Qeu-K9-DuN"/>
+                                    <outlet property="ratingControl" destination="mPq-DV-znc" id="TMK-SN-pD6"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
